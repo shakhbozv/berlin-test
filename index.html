@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<!--BEM block element modificator-->
 <body>
-    <nav>
-        <h1>Navbar</h1>
+    <nav class="navbar">
+        <div class="navbar__start">
+            <a class="navbar__item"></a>
+        </div>
+        <div class="navbar__end">
+            <a class="navbar__item"></a>
+            <a class="navbar__item"></a>
+            <a class="navbar__item navbar__item_active"></a>
+        </div>
     </nav>
+    <form class="search-form">
+        <input type="text" class="search-form__input">
+        <input type="button" class="search-form__button">
+    </form>
     <main>
         <h1>some title</h1>
     </main>
